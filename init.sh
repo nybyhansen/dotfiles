@@ -5,8 +5,10 @@ echo "installing brew.."
 echo "installing from brewfile.."
 brew bundle --global
 
-echo "installing oh-my-zsh.."
+echo "installing devbox.."
+curl -fsSL https://get.jetify.com/devbox | bash
 
+echo "installing oh-my-zsh.."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "crating symlinks.."

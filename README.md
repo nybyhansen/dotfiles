@@ -10,4 +10,4 @@ chmod +x init.sh
 ./init.sh
 ```
 
-This script will install __homebrew__ and all packages defined in the .Brewfile and create symlinks with stow.
+This script will install __homebrew__ and all packages defined in the .Brewfile, install __devbox__ and other stuff, and finally create symlinks using stow.
