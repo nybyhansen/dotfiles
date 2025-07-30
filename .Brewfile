@@ -1,0 +1,5 @@
+brew "gh"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+cask "iterm2"
+cask "visual-studio-code"
