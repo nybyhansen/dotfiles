@@ -1,6 +1,7 @@
 brew "cookiecutter"
 brew "docker"
 brew "gh"
+brew "go-task"
 brew "stow"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
